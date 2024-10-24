@@ -1,0 +1,371 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Château des Délices</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&family=Roboto:wght@700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+    <header class="navbar navbar-expand-lg sticky-top p-4" id="cabecalho">
+        <div class="container">
+            <h1 class="navbar-brand m-0 section-title">Château des Délices</h1>
+            <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#menu-navegacao">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <nav class="navbar-collapse collapse justify-content-end" id="menu-navegacao">
+                <ul class="nav nav-pills d-block d-md-flex">
+                    <li class="nav-item fw-bold">
+                        <a href="#sobre-o-restaurante" class="nav-link">
+                            <i class="bi bi-house-door me-1"></i>
+                            Sobre o restaurante
+                        </a>
+                    </li>
+                    <li class="nav-item fw-bold">
+                        <a href="#eventos" class="nav-link">
+                            <i class="bi bi-calendar-check me-1"></i>
+                            Eventos
+                        </a>
+                    </li>
+                    <li class="nav-item fw-bold">
+                        <a href="#cardapio" class="nav-link">
+                            <i class="bi bi-card-text me-1"></i>
+                            Nosso cardapio
+                        </a>
+                    </li>
+                    <li class="nav-item fw-bold">
+                        <a href="#fale-conosco" class="nav-link">
+                            <i class="bi bi-chat-left-te me-1"></i>
+                            Fale conosco
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <div data-bs-spy="scroll" data-bs-target="cabecalho" data-bs-smooth-scroll="true">
+        <section id="sobre-o-restaurante">
+            <div class="carousel slide" data-bs-ride="carousel" id="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active" data-bs-interval="3000">
+                        <img src="images/slides/slide_1.jpg" alt="Foto interna do restaurante">
+                    </div>
+                    <div class="carousel-item" data-bs-interval="3000">
+                        <img src="images/slides/slide_2.jpg" alt=" chefe preparando um prato de camaroes">
+                    </div>
+                    <div class="carousel-item" data-bs-interval="3000">
+                        <img src="images/slides/slide _3.jpg" alt=" taças de vinho sobre a mesa">
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carousel" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon"></span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carousel" data-bs-slide="next">
+                    <span class="carousel-control-next-icon"></span>
+                </button>
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carousel" class="active" data-bs-slide-to="0"></button>
+                    <button type="button" data-bs-target="#carousel" data-bs-slide-to="1"></button>
+                    <button type="button" data-bs-target="#carousel" data-bs-slide-to="2"></button>
+                </div>
+            </div>
+            <div class="pt-5 pb-5">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-5">
+                            <img src="images/restaurante.jpg" class="d-block w-100 rounded" alt="salão principal do restaurante">
+                        </div>
+                        <div class="col-md-7 mt-3 mt-md-0">
+                            <h2 class="section-title">Sobre <span class="text-colored">o restaurante</span></h2>
+                            <p>
+                                No <strong>Château des Délices</strong>, a sofisticação se encontra com a gastronomia. Experimente pratos franceses clássicos, como <em>Coq au Vin</em> e <em>Ratatouille</em>, em um ambiente luxuoso, ideal para jantares românticos e celebrações especiais.
+                            </p>                                              
+                            <h3 class="section-title">Sobre <span class="text-colored">o espaço</span></h3>
+                            <p>
+                                O <strong>Château des Délices</strong> apresenta uma decoração elegante com lustres de cristal e mesas finamente postas. Desfrute das vistas do jardim ou reserve uma sala privativa para momentos especiais. Cada refeição aqui é uma celebração de charme e requinte.
+                            </p>                                              
+                            <ul>
+                                <li>Ambiente Elegante</li>
+                                <li>Vistas Deslumbrantes</li>
+                                <li>Salas Privativas</li>
+                            </ul>                                              
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="eventos" class="pt-5 pb-5">
+            <div class="container">
+                <div class="row">
+                    <h2 class="section-title text-center">Para todas <span class="text-colored">as ocasiões</span></h2>
+                </div>
+                <div class="row mt-4">
+                    <div class="col-md-4">
+                        <img src="images/eventos/aniversario.jpg" alt="bolo de aniversário cor de rosa" class="d-block w-100 rounded mb-2">
+                        <h3 class="section-title text-colored fs-4">
+                            <i class="bi bi-calendar-heart-fill"></i>
+                            aniversários
+                        </h3>
+                        <p>
+                            Celebre seu aniversário em grande estilo no <strong>Château des Délices</strong>. Oferecemos pacotes exclusivos para festas de aniversário, com opções personalizadas de menu e decoração. Nossa equipe dedicada cuidará de cada detalhe, garantindo que seu dia especial seja inesquecível. Com um ambiente elegante e acolhedor, além de pratos deliciosos, suas comemorações serão repletas de sabor e sofisticação. Reserve já sua data e faça do seu aniversário uma experiência única!
+                        </p>                        
+                    </div>
+                    <div class="col-md-4">
+                        <img src="images/eventos/casamento.jpg" alt="mesa com pratos para o casamento" class="d-block w-100 rounded mb-2">
+                        <h3 class="section-title text-colored fs-4">
+                            <i class="bi  bi-arrow-through-heart-fill"></i>
+                            recepção para casamentos
+                        </h3>
+                        <p>
+                            O <strong>Château des Délices</strong> é o local ideal para a recepção do seu casamento. Com um ambiente romântico e sofisticado, oferecemos pacotes personalizados que incluem decoração, menu exclusivo e atendimento impecável. Nossa equipe está pronta para transformar seu sonho em realidade, garantindo que cada momento seja especial e inesquecível. Celebre o amor em um cenário encantador, onde cada detalhe é pensado para criar memórias eternas.
+                        </p>                                               
+                    </div>
+                    <div class="col-md-4">
+                        <img src="images/eventos/confraternizacoes.jpg" alt="pessoas brindando" class="d-block w-100 rounded mb-2">
+                        <h3 class="section-title text-colored fs-4">
+                            <i class="bi  bi-people-fill"></i>
+                            confraternizações
+                        </h3>
+                        <p>
+                            Para confraternizações e eventos corporativos, o <strong>Château des Délices</strong> oferece um espaço elegante e acolhedor, perfeito para reunir colegas e celebrar conquistas. Nossos pacotes incluem opções de buffet personalizáveis, garantindo que seus convidados desfrutem de uma experiência gastronômica de alta qualidade. Com um atendimento dedicado, transformamos cada confraternização em um evento memorável, onde a boa comida e a companhia se encontram em um ambiente sofisticado.
+                        </p>                                                
+                    </div>
+                </div>
+            </div>
+
+        </section>
+        <section id="cardapio" class="pt-5 pb-5">
+            <div class="container">
+                <div class="row">
+                    <h2 class="section-title text-center mb-5">
+                        Nosso <span class="text-colored">cardapio</span>
+                    </h2>
+                </div>
+                <div class="row">
+                    <aside class="col-md-2">
+                        <nav class="nav nav-pills flex-column nav-cardapio">
+                            <button type="button" data-bs-toggle="tab" data-bs-target="#bebidas-sem-alcool" class="fw-bold text-start nav-link text-colored active">Bebidas não alcoólicas</button>
+                            <button type="button" data-bs-toggle="tab" data-bs-target="#bebidas-alcoolicas" class="fw-bold text-start nav-link text-colored">Bebidasalcoólicas</button>
+                            <button type="button" data-bs-toggle="tab" data-bs-target="#entradas" class="fw-bold text-start nav-link text-colored">Entradas</button>
+                            <button type="button" data-bs-toggle="tab" data-bs-target="#pratos-principais" class="fw-bold text-start nav-link text-colored">Pratos principais</button>
+                            <button type="button" data-bs-toggle="tab" data-bs-target="#sobremesas" class="fw-bold text-start nav-link text-colored">Sobremesas</button>
+                        </nav>
+                    </aside>
+                    <div class="col-md-10">
+                        <div class="tab-content">
+                            <div class="tab-pane active" id="bebidas-sem-alcool">
+                                <div class="row">
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="images/cardapio/bebidas/coca-cola.jpg" alt="lata de refrigerante coca-cola">
+                                        <h5 class="text-colored fw-bold md-2">Coca-cola</h5>
+                                        <p>
+                                            lata de Coca-cola
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="images/cardapio/bebidas/suco.jpg" alt="Suco de laranja">
+                                        <h5 class="text-colored fw-bold md-2">Suco de laranja</h5>
+                                        <p>
+                                            Copo de suco natural de laranja
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="images/cardapio/bebidas/pepsi.jpg" alt="lata de pepsi">
+                                        <h5 class="text-colored fw-bold md-2">Pepsi</h5>
+                                        <p>
+                                            Lata de Pepsi
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="images/cardapio/bebidas/suco_maracuja.jpg" alt="Suco de maracuja">
+                                        <h5 class="text-colored fw-bold md-2">Suco de Maracuja</h5>
+                                        <p>
+                                            Copo de suco natural de maracuja
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="images/cardapio/bebidas/Café.jpeg" alt="xicara de cafe">
+                                        <h5 class="text-colored fw-bold md-2">Café</h5>
+                                        <p>
+                                            Xicara de café expresso
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="images/cardapio/bebidas/cha.png" alt="xicara de cha">
+                                        <h5 class="text-colored fw-bold md-2">Xicara de chá</h5>
+                                        <p>
+                                            Xicara de chá
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab-pane" id="bebidas-alcoolicas">
+                                <div class="row">
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="images/cardapio/bebidas/whisky.png" alt="copo de whisky">
+                                        <h5 class="text-colored fw-bold md-2">Whisky Bourbon</h5>
+                                        <p>
+                                            Whisky Bourbon Woodford Reserve 43,2% 750 ml
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="images/cardapio/bebidas/vinho.jpg" alt="taça de vinho">
+                                        <h5 class="text-colored fw-bold md-2">Vinho</h5>
+                                        <p>
+                                            Vinho Francês Cave de Ladac Rouge
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="images/cardapio/bebidas/champanhe.jpg" alt="taça de champanhe">
+                                        <h5 class="text-colored fw-bold md-2">Champagne</h5>
+                                        <p>
+                                            Champagne Canard-Duchene Brut
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab-pane" id="entradas">
+                                <div class="row">
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="images/cardapio/entradas/canape.jpg" alt="prato de canapes">
+                                        <h5 class="text-colored fw-bold md-2">Canapés</h5>
+                                        <p>
+                                            Porção de Canapés
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="images/cardapio/entradas/entrada.jpg" alt="prato de frios frutas e paes">
+                                        <h5 class="text-colored fw-bold md-2">Prato de frios frutas e pães</h5>
+                                        <p>
+                                            Porção de entrada
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="images/cardapio/entradas/smoked-salmon.jpg" alt="salmao defumado">
+                                        <h5 class="text-colored fw-bold md-2">Salmão Defumado</h5>
+                                        <p>
+                                            Peça de Salmão Defumado
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab-pane" id="pratos-principais">
+                                <div class="row">
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="images/cardapio/pratos/Coq_au_Vin.png" alt="prato franceses de galo ao vinho">
+                                        <h5 class="text-colored fw-bold md-2">Coq au Vin</h5>
+                                        <p>
+                                            prato típico da culinária francesa, feito à base de carne de galo e vinho
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="images/cardapio/pratos/Ratatouille.png" alt="Ratatouille">
+                                        <h5 class="text-colored fw-bold md-2">Ratatouille</h5>
+                                        <p>
+                                            Ratatouille é uma clássica receita francesa provençal de legumes cozidos
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="images/cardapio/pratos/salmao.jpg" alt="salmao">
+                                        <h5 class="text-colored fw-bold md-2">Salmão</h5>
+                                        <p>
+                                            Salmão cozido com temperos e acompanhamentos
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab-pane" id="sobremesas">
+                                <div class="row">
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="images/cardapio/sobremesas/bolo.jpg" alt="bolo">
+                                        <h5 class="text-colored fw-bold md-2">Bolo</h5>
+                                        <p>
+                                            Fatia de bolo
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="images/cardapio/sobremesas/cupcake.jpg" alt="cupcake">
+                                        <h5 class="text-colored fw-bold md-2">Cupcake com morango</h5>
+                                        <p>
+                                            Delicioso Cupcake
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+            </div>
+        </section>
+        <section id="fale-conosco" class="pt-5 pb-5">
+            <div class="container">
+                <div class="row">
+                    <h2 class="section-title text-center">
+                        Fale <span class="text-colored">Conosco</span>
+                    </h2>
+                </div>
+                <div class="row">
+                    <div class="col-md-7 mb-5">
+                        <form>
+                            <div class="mb-3">
+                                <label for="nome" class="form-label fw-bold text-colored">Seu Nome</label>
+                                <input type="text" id="nome" class="form-control" required>
+                            </div>
+                            <div class="mb-3">
+                                <label for="email" class="form-label fw-bold text-colored">Seu e-mail</label>
+                                <input type="email" id="email" class="form-control" required>
+                            </div>
+                            <div class="mb-3">
+                                <label for="telefone" class="form-label fw-bold text-colored">Seu Telefone (opicional)</label>
+                                <input type="tel" id="telefone" class="form-control">
+                            </div>
+                            <div class="mb-3">
+                                <label for="mensagem" class="form-label fw-bold text-colored">Sua Mensagem</label>
+                                <textarea class="form-control" id="mensagem" required></textarea>
+                            </div>
+                            <button type="submit" class="btn fw-bold">Enviar</button>
+                        </form>
+                    </div>
+                    <div class="col-md-5">
+                        <div class="row">
+                            <h3 class="section-title fs-4 text-colored">
+                                <i class="bi bi-hand-thumbs-up-fill"></i>
+                                Redes Sociais
+                            </h3>
+                            <ul class="social-links">
+                                <li class="fs-5">
+                                    <a href="#">
+                                        <i class="bi bi-facebook text-colored"></i>
+                                    </a>
+                                </li>
+                                <li class="fs-5 ms-1 me-1">
+                                    <a href="#">
+                                        <i class="bi bi-instagram text-colored"></i>
+                                    </a>
+                                </li>
+                                <li class="fs-5">
+                                    <a href="#">
+                                        <i class="bi bi-whatsapp text-colored"></i>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="row mt-4">
+                            <h3 class="section-title fs-4 text-colored">
+                                <i class="bi bi-cursor-fill"></i>
+                                Endereço
+                            </h3>
+                            <p>Rua das Acácias, 234 - Bairro Jardim das Flores, São Paulo - SP</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
